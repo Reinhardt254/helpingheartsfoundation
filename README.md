@@ -1,4 +1,4 @@
-#Helping hearts foundation a non governmental organisation website
+# Helping hearts foundation a non governmental organisation website
 
 A React web app created with NEx.js 13.4
 
