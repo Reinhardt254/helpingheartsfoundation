@@ -4,6 +4,8 @@ It implements the latest features of Next.js
 
 It is a charity web app for a non-governmental organization for charity work in Kenya
 
+Javascript || React || Next.js
+
 
 
 
