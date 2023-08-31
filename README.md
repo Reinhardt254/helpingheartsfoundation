@@ -6,7 +6,7 @@ It implements the latest features of Next.js
 
 It is a charity web app for a non-governmental organization on charity work in Kenya!
 
-Javascript || React || Next.js
+Javascript || React || Next.js || Planet scale
 
 
 
