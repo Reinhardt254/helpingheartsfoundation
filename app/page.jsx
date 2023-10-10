@@ -12,7 +12,7 @@ export default function Home() {
         className="bg-slate-900 "
       >
         {/* ============card on home============ */}
-      <div className="flex flex-col justify-center my-5 sm:items-center md:flex-row sm:my-20 md:mx-40">    
+      <div className="flex flex-col justify-center my-5 sm:items-center md:flex-row sm:my-32 md:mx-40">    
       <section className="flex flex-col justify-center m-3 sm:w-1/2">
         <h1 className="text-2xl font-bold text-white text-start md:mb-5">
              YOU HELP PEOPLE?
