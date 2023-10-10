@@ -1,6 +1,6 @@
  "use client"
 import Link from 'next/link'
-import { Bars3Icon } from '@heroicons/react/24/outline'
+import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import { useState } from 'react'
 
 const Navbar = () => {
@@ -16,48 +16,58 @@ const Navbar = () => {
       </Link>
       
       <div className='absolute pt-3 right-3 md:hidden'> 
-      <Link href=""
-       className=''
+      <div
        onClick={()=> setToggleDropDown((prev)=>!prev)}
       > 
       
       <Bars3Icon className="w-8 h-8 text-bLack" />
-      </Link>
+      </div>
       </div>
      
       {/* ================Large devices================ */}
       <div className='flex justify-end px-3 py-1.5 max-sm:hidden max-md:hidden' > 
       <Link 
-      href=""
+      href="/About"
       className='flex items-center justify-center w-24 h-10 mx-8 border-2 border-slate-900 hover:bg-black hover:border-hidden'
       >
        <h1 className='justify-center font-bold text-center text-black flex-center hover:text-white'>About Us</h1>
       </Link>
       <Link 
-      href=""
+      href="/Contact"
       className='flex items-center justify-center w-24 h-10 mx-8 border-2 border-slate-900 hover:bg-black hover:border-hidden '
       >
        <h1 className='font-bold text-center text-black pjustify-center flex-center hover:text-white'>Contact Us</h1>
       </Link>
-      <Link href=""
+      <Link href="/Donate"
        className='flex items-center justify-center w-24 h-10 mx-8 border-2 border-slate-900 hover:bg-black hover:border-hidden '
        >
        <h1 className='pt-2 font-bold text-center text-black pjustify-center flex-center hover:text-white'>Donate</h1>
       </Link>
       </div>
       {toggleDropDown && (
-        <div className='z-10 flex-col w-64 h-screen mt-16 mr-2'>
-          <div className='flex-col pt-3 bg-white rounded h-1/4'> 
-          <div className='p-3 font-bold text-start'> 
-          <Link href=""
-          className=''
-          onClick={() => setToggleDropDown(false)}
-          >
+       <div className='absolute flex w-screen'>
+        <div>
+        <div className='z-10 flex flex-row w-screen h-screen'>
+          <div className='w-1/2 h-screen bg-black opacity-50' />          
+          <div className='flex-col w-1/2 h-full mt-2 bg-white bg-opacity-100'>
+          <div className='absolute top-0 right-0 pt-1 pr-6'> 
+           <div
+            onClick={()=> setToggleDropDown((prev)=>!prev)}
+           > 
+      
+           <XMarkIcon className="w-8 h-8 text-bLack" />
+           </div>
+           </div> 
+            <div className='p-3 font-bold text-start'> 
+           <Link href="/About"
+           className=''
+           onClick={() => setToggleDropDown(false)}
+           >
             About Us
           </Link>
           </div>
           <div className='p-3 font-bold text-start'> 
-          <Link href=""
+          <Link href="/Contact"
           className=''
           onClick={() => setToggleDropDown(false)}
           >
@@ -65,7 +75,7 @@ const Navbar = () => {
           </Link>
           </div>
           <div className='p-3 font-bold text-start'> 
-          <Link href=""
+          <Link href="/Donate"
           className=''
           onClick={() => setToggleDropDown(false)}
           >
@@ -74,6 +84,8 @@ const Navbar = () => {
           </div>
           </div>
         </div>
+        </div>
+        </div>
       )}
     </div>
      
@@ -81,28 +93,3 @@ const Navbar = () => {
 }
 
 export default Navbar
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

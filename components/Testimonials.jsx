@@ -3,65 +3,70 @@ import React from 'react'
 
 const Testimonials = () => {
   return (
-    <div className='flex-col sm:flex-row md:flex'>
+    <div className='flex-col space-y-4 sm:flex-row md:flex'>
         <div className='flex flex-col items-center justify-center p-4 mx-2 mt-3 bg-white rounded md:w-1/4 justify-items-center'>
-            <div className='flex justify-center'> 
+            <div className='flex justify-center mb-3'> 
             <Image 
-             src={"/assets/photos/pic1.jpg"}
+             src={"/assets/photos/profile.jpg"}
              width={150}
              height={150}
              alt="profile"
              className='rounded-full'
             />
             </div>
-            <h1>''</h1>
-            <p>We are a charity foundation in Kenya, we help young needy children and families, join us to make a better societ</p>
-            <h1>''</h1>
+            <h1 className='mb-2 text-lg font-bold text-slate-900'>James Ndaraiya</h1>
+            <p className='mb-3 text-sm font-semibold text-slate-900'> I have been volunteering with Helping Hearts for years, and I have seen the positive impact they have on both local and global scales. Their transparency and commitment to making every dollar count in their charitable efforts have convinced me to become a regular donor. It is an organization I am proud to support</p>
+            <h1></h1>
         </div>
 
         <div className='flex flex-col items-center justify-center p-4 mx-2 mt-3 bg-white rounded md:w-1/4 justify-items-center'>
-        <div className='flex justify-center'> 
+        <div className='flex justify-center mb-3'> 
             <Image 
-             src={"/assets/photos/pic1.jpg"}
+             src={"/assets/photos/profile.jpg"}
              width={150}
              height={150}
              alt="profile"
              className='rounded-full'
             />
             </div>
-            <h1>..</h1>
-            <p>We are a charity foundation in Kenya, we help young needy children and families, join us to make a better societ</p>
-            <h1>..</h1>
+            <h1 className='mb-2 text-lg font-bold text-slate-900'>Shirlin Kwamboka</h1>
+            <p className='mb-3 text-sm font-semibold text-slate-900'>
+            I have seen the incredible difference helping hearts makes in the lives of orphaned children. They do not just provide material support; they also ensure these kids receive emotional care, mentoring, and a sense of belonging. It is heartwarming to be part of such a compassionate organization       
+            </p>
         </div>
 
         <div className='flex flex-col items-center justify-center p-4 mx-2 mt-3 bg-white rounded md:w-1/4 justify-items-center'>
-        <div className='flex justify-center'> 
+        <div className='flex justify-center mb-3'> 
             <Image 
-             src={"/assets/photos/pic1.jpg"}
+             src={"/assets/photos/profile.jpg"}
              width={150}
              height={150}
              alt="profile"
              className='rounded-full'
             />
             </div>
-            <h1>''</h1>
-            <p>We are a charity foundation in Kenya, we help young needy children and families, join us to make a better societ</p>
-            <h1>''</h1>
+            <h1 className='mb-2 text-lg font-bold text-slate-900'>Peter Korir</h1>
+            <p className='mb-3 text-sm font-semibold text-slate-900'>
+            Growing up in an orphanage was tough, but Helping Hearts changed the game for us. Their commitment to our education and well-being gave me the opportunity to attend college. I am now studying social work to help other kids like me. This charity is a true blessing.           
+            </p>
+            <h1></h1>
         </div>  
           
         <div className='flex flex-col items-center justify-center p-4 mx-2 mt-3 bg-white rounded md:w-1/4 justify-items-center'>
-        <div className='flex justify-center'> 
+        <div className='flex justify-center mb-3'> 
             <Image 
-             src={"/assets/photos/pic1.jpg"}
+             src={"/assets/photos/profile.jpg"}
              width={150}
              height={150}
              alt="profile"
              className='rounded-full'
             />
             </div>
-            <h1>''</h1>
-            <p>We are a charity foundation in Kenya, we help young needy children and families, join us to make a better societ</p>
-            <h1>''</h1>
+            <h1 className='mb-2 text-lg font-bold text-slate-900'>Ouma Kelvin</h1>
+            <p className='mb-3 text-sm font-semibold text-slate-900'>
+            I have watched helping hearts transform the orphanage in our community. The children are happier, healthier, and full of dreams. The charitys dedication to creating a nurturing environment for these kids is inspiring and has brought our community closer together
+            </p>
+            <h1></h1>
         </div>
     </div>
   )
