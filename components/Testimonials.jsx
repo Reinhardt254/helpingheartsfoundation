@@ -38,16 +38,16 @@ const Testimonials = () => {
         <div className='flex flex-col items-center justify-center p-4 mx-2 mt-3 bg-white rounded md:w-1/4 justify-items-center'>
         <div className='flex justify-center mb-3'> 
             <Image 
-             src={"/assets/photos/profile.jpg"}
+             src={"/assets/photos/mau.jpg"}
              width={150}
              height={150}
              alt="profile"
              className='rounded-full'
             />
             </div>
-            <h1 className='mb-2 text-lg font-bold text-slate-900'>Peter Korir</h1>
+            <h1 className='mb-2 text-lg font-bold text-slate-900'>Maurice Chesach</h1>
             <p className='mb-3 text-sm font-semibold text-slate-900'>
-            Growing up in an orphanage was tough, but Helping Hearts changed the game for us. Their commitment to our education and well-being gave me the opportunity to attend college. I am now studying social work to help other kids like me. This charity is a true blessing.           
+            It is incredible to witness the life-changing impact of Helping Hearts on orphaned children. They go above and beyond by providing emotional care, mentorship, and a sense of belonging, in addition to material support. I am deeply moved to be a part of such a compassionate organization.           
             </p>
             <h1></h1>
         </div>  
@@ -64,7 +64,7 @@ const Testimonials = () => {
             </div>
             <h1 className='mb-2 text-lg font-bold text-slate-900'>Ouma Kelvin</h1>
             <p className='mb-3 text-sm font-semibold text-slate-900'>
-            I have watched helping hearts transform the orphanage in our community. The children are happier, healthier, and full of dreams. The charitys dedication to creating a nurturing environment for these kids is inspiring and has brought our community closer together
+            Seeing the profound difference Helping Hearts makes in the lives of orphaned children is truly heartwarming. Their comprehensive support, including emotional care, mentorship, and fostering a sense of belonging, is a testament to their compassion. I am proud to be a part of this incredible organization.
             </p>
             <h1></h1>
         </div>

@@ -12,18 +12,18 @@ export default function Home() {
         className="bg-slate-950 "
       >
         {/* ============card on home============ */}
-      <div className="flex flex-col justify-center my-5 sm:items-center md:flex-row sm:my-32 md:mx-40 z-10">    
-      <section className="flex flex-col justify-center m-3 sm:w-1/2">
-        <h1 className="text-2xl font-bold text-white text-start md:mb-5 mb-3 md:text-4xl">
+      <div className="z-10 flex flex-col justify-center my-5 sm:items-center md:flex-row sm:my-32 md:mx-40">    
+      <section className="flex flex-col justify-center m-3 mt-3 sm:w-1/2 max-sm:mt-8">
+        <h1 className="mb-3 text-2xl font-bold text-white text-start md:mb-5 md:text-4xl">
              YOU HELP PEOPLE?
             </h1>
-         <h1 className="text-xl font-bold text-white text-start md:mb-5 mb-3 md:text-2xl">BECOME A VOLUNTEER TODAY</h1>
+         <h1 className="mb-3 text-xl font-bold text-white text-start md:mb-5 md:text-2xl">BECOME A VOLUNTEER TODAY</h1>
             <div className="flex flex-col">
-            <span className="font-bold text-start text-slate-100 text-xl">We are a charity foundation in Kenya</span>
+            <span className="text-xl font-bold text-start text-slate-100">We are a charity foundation in Kenya</span>
             <span className="font-bold text-start text-slate-100">
             we help young needy children and families
             </span>
-            <span className="font-bold text-start text-slate-100 text-lg">join us to make a better society</span>
+            <span className="text-lg font-bold text-start text-slate-100">join us to make a better society</span>
             </div>
       <div className="flex ">       
        <Link href="/About"
@@ -39,7 +39,7 @@ export default function Home() {
       </Link>
       </div>  
     </section>
-    <div className="flex m-3 bg-white rounded">
+    <div className="flex m-3 bg-white rounded max-sm:mt-8">
       <div>
         <Image 
           src="/assets/photos/Donate.jpg"
@@ -79,8 +79,7 @@ export default function Home() {
         className=""
        />
        </div>
-        <div className="justify-start">
-          <h1 className="font-bold text-md">Donate</h1>
+        <div className="justify-start mt-2">
           <p className="font-bold text-gray-600"> 
           Help us make a meaningful impact by donating gently used clothing and contributing financially to our cause. Your clothing donations provide warmth and dignity to those in need, while monetary donations allow us to expand our reach and provide essential services to our community. Together, we can bring comfort and support to those who require it the most. 
           </p>
@@ -97,8 +96,7 @@ export default function Home() {
         className=""
        />
        </div>
-        <div className="justify-start">
-          <h1 className="font-bold text-md">Donate</h1>
+        <div className="justify-start mt-2">
           <p className="font-bold text-gray-600">
              We invite you to join us in the fight against hunger by donating non-perishable food items. Your contribution can make a world of difference in the lives of those struggling to put food on their plates. Every can, every box, and every package counts in helping us ensure that no one in our community goes hungry. Your generosity nourishes the bodies and spirits of those in need.
           </p>
@@ -115,8 +113,7 @@ export default function Home() {
         className=""
        />
       </div>
-        <div className="justify-start">
-          <h1 className="font-bold text-md">Donate</h1>
+        <div className="justify-start mt-2">
           <p className="font-bold text-gray-600">
              Be a part of positive change by giving the gift of clothing and cash donations. Your unwanted clothing can become someone elses treasure, and your monetary contributions enable us to continue our mission of aiding those in need. Your generosity strengthens our community and empowers individuals to overcome challenges. Donate today to make a lasting impact.
          </p>
@@ -134,18 +131,18 @@ export default function Home() {
         We are a passionate charitable foundation based in the heart of Kenya, dedicated to the well-being of our young, underprivileged children and families. Our mission is clear: to forge a path towards a brighter, more equitable society where every child has the opportunity to thrive. In a world where challenges persist, we stand as a beacon of hope, offering access to education, healthcare, and a supportive community. But we cannot do it alone. We need compassionate individuals like you to join us in our journey. Your involvement, whether through volunteering, donations, or advocacy, can be the catalyst for lasting change. Together, we can break down barriers, uplift spirits, and create a stronger, more inclusive society that truly leaves no one behind. Join us today, and let us make a profound impact on the lives of those who need it most.
         </p1>
 
-        <div className="flex items-center justify-center">
+      <div className="flex items-center justify-center">
         <Link href="/Donate"
         className="pt-5"
         >
-       <h1 className='p-2 ml-5 font-bold text-center text-black bg-white hover:text-slate-900 w-28 flex-center hover:border-hidden hover:bg-gray-200'>Join us</h1>
+       <h1 className='p-2 ml-5 font-bold text-center text-black bg-white rounded hover:text-black w-28 flex-center hover:border-hidden hover:bg-gray-400'>Join us</h1>
       </Link>
       </div>
       </div>
       
       {/* ==================Testimonials============== */}
       <div className="">
-        <h1 className="pt-4 pb-2 mx-5 text-xl font-bold text-center border-b-2 border-slate-900">Testimonials</h1>
+        <h1 className="pt-4 pb-2 mx-5 text-xl font-bold text-center border-b-2 border-slate-900">What People say about us</h1>
         <div className="mb-5">
             <Testimonials />
         </div>

@@ -6,9 +6,9 @@ const Contact = () => {
   return (
     <div className='w-screen h-full bg-gray-200'>
       <div className='w-full h-full mx-0 bg-white'>
-        <div className= "flex flex-col items-center justify-center w-3/4 pt-16  space-y-10 md:w-1/4 mx-10 md:ml-20">
+        <div className= "flex flex-col items-center justify-center w-3/4 pt-16 mx-10 space-y-10 md:w-1/4 md:ml-20">
 {/* =================Loaction============================= */}
-        <div className='w-full space-y-6 mb-10'>   
+        <div className='w-full mb-10 space-y-6'>   
           <div 
             className='pt-8 border-t-8 border-slate-900'
           />
@@ -20,15 +20,15 @@ const Contact = () => {
           </div>
 {/* =================Contact================================ */}
           <div>
-            <h1 className='text-2xl font-bold text-slate-900'>Contact</h1>
+            <h1 className='mt-3 text-2xl font-bold text-slate-900'>Contact</h1>
             <p className='font-semibold'>Email:</p><p>helpingheartsfoundation254@gmail.com</p>
-            <p className='font-semibold'>Phone Number:</p><p>0797928936</p>
+            <p className='mt-2 font-semibold'>Phone Number:</p><p>0797928936</p>
           </div>
 
 {/* =====================================socials====================== */}
           <div>
             <div className=''>
-            <h1 className='text-2xl font-bold text-slate-900'>Socials</h1>
+            <h1 className='mt-3 text-2xl font-bold text-slate-900'>Socials</h1>
             <div className='flex'>
             <div className='mt-2 mr-5'>
             <h1 className='font-semibold'>Twitter</h1>
@@ -38,7 +38,7 @@ const Contact = () => {
               width={50}
               height={50}
               alt="Twitter"
-              className='rounded shadow-xl border'
+              className='mt-2 border rounded shadow-xl'
               />
             </Link>
             </div>
@@ -50,7 +50,7 @@ const Contact = () => {
                   width={50}
                   height={50}
                   alt="instagram"
-                  className='rounded shadow-xl border'
+                  className='mt-2 border rounded shadow-xl'
                 />
               </Link>
             </div>
@@ -62,7 +62,7 @@ const Contact = () => {
                   width={50}
                   height={50}
                   alt="Twitter"
-                  className='rounded shadow-xl'
+                  className='mt-2 rounded shadow-xl'
                 />
               </Link>
             </div>
