@@ -4,11 +4,11 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <div className='w-screen h-screen bg-gray-200'>
+    <div className='w-screen h-full bg-gray-200'>
       <div className='w-full h-full mx-0 bg-white'>
-        <div className= "flex flex-col items-center justify-center w-3/4 pt-20  space-y-10 md:w-1/4 mx-10 md:ml-20">
+        <div className= "flex flex-col items-center justify-center w-3/4 pt-16  space-y-10 md:w-1/4 mx-10 md:ml-20">
 {/* =================Loaction============================= */}
-        <div className='w-full space-y-6'>   
+        <div className='w-full space-y-6 mb-10'>   
           <div 
             className='pt-8 border-t-8 border-slate-900'
           />
