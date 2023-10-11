@@ -19,23 +19,17 @@ export default function Home() {
             </h1>
          <h1 className="mb-3 text-xl font-bold text-white text-start md:mb-5 md:text-2xl">BECOME A VOLUNTEER TODAY</h1>
             <div className="flex flex-col">
-            <span className="text-xl font-bold text-start text-slate-100">We are a charity foundation in Kenya</span>
-            <span className="font-bold text-start text-slate-100">
-            we help young needy children and families
+            <span className="text-xl font-bold text-start text-slate-300">We are a charity foundation in Kenya</span>
+            <span className="font-bold text-start text-slate-300">
+            we help young needy children and families.
             </span>
-            <span className="text-lg font-bold text-start text-slate-100">join us to make a better society</span>
+            <span className="text-lg font-bold text-start text-slate-300">Join us to make a better society</span>
             </div>
-      <div className="flex ">       
+      <div className="flex mt-5">       
        <Link href="/About"
         className="pt-5"
         >
-       <h1 className='p-2 font-bold text-center bg-white border-2 text-slate-900 flex-center w-28 hover:text-white hover:bg-black hover:border-hidden'>Learn More</h1>
-      </Link>
-      
-      <Link href="/Contact"
-        className="pt-5"
-        >
-       <h1 className='p-2 ml-5 font-bold text-center text-white border-2 border-white w-28 flex-center hover:text-black hover:bg-white hover:border-hidden'>Join us</h1>
+       <h1 className='p-2 font-bold text-center bg-white text-slate-900 flex-center w-28 hover:text-white hover:bg-gray-700 hover:border-hidden'>Learn More</h1>
       </Link>
       </div>  
     </section>
@@ -50,8 +44,7 @@ export default function Home() {
         />
       </div>
       <div className="flex flex-col items-center justify-center px-2">
-        <p className="text-xl font-bold text-slate-900">Let us make a better today</p>
-        <p className="text-lg font-semibold text-slate-900">Donate Today</p>
+        <p className="text-xl font-bold text-slate-900">Make someone smile today</p>
         <Link href="/Donate"
         className="pt-5"
         >
@@ -123,7 +116,6 @@ export default function Home() {
 
       {/* ============Join us card=============== */}  
         <div className="m-3 border-b-2 border-slate-900">
-          <h1 className="text-lg font-bold text-center">Join Us Today</h1>
         </div>
       <div className="flex flex-col justify-center p-8 mx-2 my-3 rounded items-left bg-slate-900 md:mx-20 md:p-14">
         <h1 className="pb-2 text-3xl font-bold text-white ">Become one of  Us Today</h1>
@@ -135,7 +127,7 @@ export default function Home() {
         <Link href="/Donate"
         className="pt-5"
         >
-       <h1 className='p-2 ml-5 font-bold text-center text-black bg-white rounded hover:text-black w-28 flex-center hover:border-hidden hover:bg-gray-400'>Join us</h1>
+       <h1 className='p-2 mt-5 mb-5 ml-5 font-bold text-center text-black bg-white rounded hover:text-black w-28 flex-center hover:border-hidden hover:bg-gray-400'>Join us</h1>
       </Link>
       </div>
       </div>
