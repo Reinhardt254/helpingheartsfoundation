@@ -25,7 +25,7 @@ const Contact = () => {
             <p className='mt-2 font-semibold'>Phone Number:</p><p>0797928936</p>
           </div>
 
-{/* =====================================socials====================== */}
+{/* =====================================socials===================== */}
           <div>
             <div className=''>
             <h1 className='mt-3 text-2xl font-bold text-slate-900'>Socials</h1>
