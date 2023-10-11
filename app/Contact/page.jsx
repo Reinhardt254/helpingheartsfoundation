@@ -6,12 +6,13 @@ const Contact = () => {
   return (
     <div className='w-screen h-screen bg-gray-200'>
       <div className='w-full h-full mx-0 bg-white'>
-        <div className= "flex flex-col items-center justify-center w-3/4 pt-20 mx-20 space-y-10 md:w-1/4">
+        <div className= "flex flex-col items-center justify-center w-3/4 pt-20  space-y-10 md:w-1/4 mx-10 md:ml-20">
 {/* =================Loaction============================= */}
         <div className='w-full space-y-6'>   
           <div 
             className='pt-8 border-t-8 border-slate-900'
           />
+          <div className='ml-4'>
           <div>  
           <h1 className='text-2xl font-bold text-slate-900'>location</h1>
           <p>Nairobi Kenya</p>
@@ -67,6 +68,7 @@ const Contact = () => {
             </div>
             </div>
             </div>
+          </div>
           </div>
           <div 
             className='border-b-8 border-slate-900'

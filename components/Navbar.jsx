@@ -57,7 +57,7 @@ const Navbar = () => {
         <div>
         <div className='z-10 flex flex-row w-screen h-screen'>
           <div className='w-1/2 h-screen bg-black opacity-50' />          
-          <div className='flex-col w-1/2 h-full mt-2 bg-white bg-opacity-100'>
+          <div className='flex-col w-2/3 h-full mt-2 bg-white bg-opacity-100'>
           <div className='absolute top-0 right-0 pt-1 pr-6'> 
            <div
             onClick={()=> setToggleDropDown((prev)=>!prev)}
@@ -66,7 +66,7 @@ const Navbar = () => {
            <XMarkIcon className="w-8 h-8 text-bLack" />
            </div>
            </div> 
-            <div className='p-3 font-bold text-start'> 
+            <div className='p-3 font-bold text-start mt-7'> 
            <Link href="/About"
            className=''
            onClick={() => setToggleDropDown(false)}

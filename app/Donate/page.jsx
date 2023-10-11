@@ -9,7 +9,7 @@ const Donate = () => {
             className='mt-8 border-t-8 border-slate-900'
           />
       <div className='flex items-center justify-start h-full pt-10 pb-10'>
-        <div className='flex flex-col items-start justify-center p-5  rounded h-96 ml-10 bg-slate-900'>
+        <div className='flex flex-col items-start justify-center p-5  rounded h-96 md:ml-10 bg-slate-900'>
           <div className='flex space-x-4'>
             <div>
               <Image 

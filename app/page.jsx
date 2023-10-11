@@ -9,23 +9,15 @@ export default function Home() {
   return (
     <main className="z-0 flex flex-col min-h-screen bg-gray-200">
       <div
-        className="bg-black "
+        className="bg-slate-950 "
       >
-        <div className="relative z-0 w-full h-full">
-          <Image 
-            alt="home"
-            src="/assets/photos/home1.jpg"
-            fill
-            className="bg-black opacity-10"
-          />
-        </div>
         {/* ============card on home============ */}
       <div className="flex flex-col justify-center my-5 sm:items-center md:flex-row sm:my-32 md:mx-40 z-10">    
       <section className="flex flex-col justify-center m-3 sm:w-1/2">
         <h1 className="text-2xl font-bold text-white text-start md:mb-5 mb-3 md:text-4xl">
              YOU HELP PEOPLE?
             </h1>
-         <h1 className="text-xl font-bold text-white text-start md:mb-5 mb-3 md:text-2xl">BECOME A VOLONTEER TODAY</h1>
+         <h1 className="text-xl font-bold text-white text-start md:mb-5 mb-3 md:text-2xl">BECOME A VOLUNTEER TODAY</h1>
             <div className="flex flex-col">
             <span className="font-bold text-start text-slate-100 text-xl">We are a charity foundation in Kenya</span>
             <span className="font-bold text-start text-slate-100">
