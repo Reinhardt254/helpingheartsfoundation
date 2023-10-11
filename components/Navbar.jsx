@@ -2,6 +2,7 @@
 import Link from 'next/link'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import { useState } from 'react'
+import Image from 'next/image'
 
 const Navbar = () => {
 
@@ -9,10 +10,17 @@ const Navbar = () => {
   
   return (
     <div className='flex justify-between flex-center'>
-      <Link className="flex justify-center pt-3 pl-5 text-lg font-bold text-gray-950"
-      href=""
+      <Link className="flex justify-center pl-5 text-lg font-bold text-gray-950"
+      href="/"
       >
-        HelpingHeartsFoundation
+        <div>
+          <Image 
+            src="/assets/photos/logo.jpg"
+            alt="logo"
+            width={60}
+            height={60}
+          />
+        </div>
       </Link>
       
       <div className='absolute pt-3 right-3 md:hidden'> 
@@ -30,18 +38,18 @@ const Navbar = () => {
       href="/About"
       className='flex items-center justify-center w-24 h-10 mx-8 border-2 border-slate-900 hover:bg-black hover:border-hidden'
       >
-       <h1 className='justify-center font-bold text-center text-black flex-center hover:text-white'>About Us</h1>
+       <h1 className='justify-center font-bold text-center text-black flex hover:text-white items-center'>About Us</h1>
       </Link>
       <Link 
       href="/Contact"
       className='flex items-center justify-center w-24 h-10 mx-8 border-2 border-slate-900 hover:bg-black hover:border-hidden '
       >
-       <h1 className='font-bold text-center text-black pjustify-center flex-center hover:text-white'>Contact Us</h1>
+       <h1 className='font-bold text-center text-black justify-center flex-center hover:text-white'>Contact Us</h1>
       </Link>
       <Link href="/Donate"
        className='flex items-center justify-center w-24 h-10 mx-8 border-2 border-slate-900 hover:bg-black hover:border-hidden '
        >
-       <h1 className='pt-2 font-bold text-center text-black pjustify-center flex-center hover:text-white'>Donate</h1>
+       <h1 className='font-bold text-center text-black justify-center flex-center hover:text-white'>Donate</h1>
       </Link>
       </div>
       {toggleDropDown && (

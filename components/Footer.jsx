@@ -10,17 +10,26 @@ const Footer = () => {
         <div className="pt-2">
           <h1 className="font-bold text-white">Contact Us</h1>
           <p className="text-white">0797983330</p>
-          <p className="text-white">heartsfoundation@gmail.com</p>
+          <p className="text-white">helpingheartsfoundation254@gmail.com</p>
         </div>
         <div className="pt-2">
           <h1 className="font-bold text-white">Location</h1>
-          <h1 className="text-white">Eldoret Kenya</h1>
-          <h1 className="text-white">Uasingishu county</h1>
+          <h1 className="text-white">Nairobi Kenya</h1>
+          <h1 className="text-white">Nairobi county</h1>
         </div>
         <div className="pt-2">
           <h1 className="font-bold text-white">Socials</h1>
           <div className='flex mt-3 space-x-3'>
-           <Link href="www.instagram.com">
+          <Link href="https://chat.whatsapp.com/HWLc2uRKPMiCxtMjZtIuiP">
+                <Image 
+                  src="/assets/photos/wsapp.jpg"
+                  width={30}
+                  height={30}
+                  alt="Twitter"
+                  className='rounded'
+                />
+              </Link>
+           <Link href="https://instagram.com/helping.hearts.foundation.ke?igshid=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr">
                 <Image 
                   src="https://upload.wikimedia.org/wikipedia/commons/9/95/Instagram_logo_2022.svg"
                   width={30}

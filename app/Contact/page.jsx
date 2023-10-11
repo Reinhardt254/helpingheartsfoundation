@@ -5,7 +5,7 @@ import React from 'react'
 const Contact = () => {
   return (
     <div className='w-screen h-screen bg-gray-200'>
-      <div className='w-full h-full mx-4 bg-white'>
+      <div className='w-full h-full mx-0 bg-white'>
         <div className= "flex flex-col items-center justify-center w-3/4 pt-20 mx-20 space-y-10 md:w-1/4">
 {/* =================Loaction============================= */}
         <div className='w-full space-y-6'>   
@@ -14,13 +14,13 @@ const Contact = () => {
           />
           <div>  
           <h1 className='text-2xl font-bold text-slate-900'>location</h1>
-          <p>Eldoret Kenya</p>
-          <p>Uasingishu County</p>
+          <p>Nairobi Kenya</p>
+          <p>Nairobi County</p>
           </div>
 {/* =================Contact================================ */}
           <div>
             <h1 className='text-2xl font-bold text-slate-900'>Contact</h1>
-            <p className='font-semibold'>Email:</p><p>heartsfoundation@gmail.com</p>
+            <p className='font-semibold'>Email:</p><p>helpingheartsfoundation254@gmail.com</p>
             <p className='font-semibold'>Phone Number:</p><p>0797928936</p>
           </div>
 
@@ -30,13 +30,26 @@ const Contact = () => {
             <h1 className='text-2xl font-bold text-slate-900'>Socials</h1>
             <div className='flex'>
             <div className='mt-2 mr-5'>
+            <h1 className='font-semibold'>Twitter</h1>
+            <Link href="https://chat.whatsapp.com/HWLc2uRKPMiCxtMjZtIuiP">
+            <Image 
+              src="/assets/photos/wsapp.jpg"
+              width={50}
+              height={50}
+              alt="Twitter"
+              className='rounded shadow-xl border'
+              />
+            </Link>
+            </div>
+            <div className='mt-2 mr-5'>
             <h1 className='font-semibold'>Instagram</h1>
-              <Link href="www.instagram.com">
+              <Link href="https://instagram.com/helping.hearts.foundation.ke?igshid=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr">
                 <Image 
                   src="https://upload.wikimedia.org/wikipedia/commons/9/95/Instagram_logo_2022.svg"
                   width={50}
                   height={50}
                   alt="instagram"
+                  className='rounded shadow-xl border'
                 />
               </Link>
             </div>
@@ -48,7 +61,7 @@ const Contact = () => {
                   width={50}
                   height={50}
                   alt="Twitter"
-                  className='rounded'
+                  className='rounded shadow-xl'
                 />
               </Link>
             </div>

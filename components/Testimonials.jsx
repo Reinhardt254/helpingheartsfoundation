@@ -7,7 +7,7 @@ const Testimonials = () => {
         <div className='flex flex-col items-center justify-center p-4 mx-2 mt-3 bg-white rounded md:w-1/4 justify-items-center'>
             <div className='flex justify-center mb-3'> 
             <Image 
-             src={"/assets/photos/profile.jpg"}
+             src={"/assets/photos/abdul.jpg"}
              width={150}
              height={150}
              alt="profile"
