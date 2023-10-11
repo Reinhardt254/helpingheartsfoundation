@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <main className="z-0 flex flex-col min-h-screen bg-gray-200">
       <div
-        className="bg-slate-950 "
+        className="bg-slate-900 "
       >
         {/* ============card on home============ */}
       <div className="z-10 flex flex-col justify-center my-5 sm:items-center md:flex-row sm:my-32 md:mx-40">    
@@ -21,9 +21,9 @@ export default function Home() {
             <div className="flex flex-col">
             <span className="text-xl font-bold text-start text-slate-300">We are a charity foundation in Kenya</span>
             <span className="font-bold text-start text-slate-300">
-            we help young needy children and families.
+            We help young needy children and families.
             </span>
-            <span className="text-lg font-bold text-start text-slate-300">Join us to make a better society</span>
+            <span className="text-lg font-bold text-start text-slate-300">Join us to make a better society. </span>
             </div>
       <div className="flex mt-5">       
        <Link href="/About"
