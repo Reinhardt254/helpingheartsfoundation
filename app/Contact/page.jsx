@@ -31,7 +31,7 @@ const Contact = () => {
             <h1 className='mt-3 text-2xl font-bold text-slate-900'>Socials</h1>
             <div className='flex pb-2'>
             <div className='mt-2 mr-5'>
-            <h1 className='font-semibold'>Twitter</h1>
+            <h1 className='font-semibold'>WhatsApp</h1>
             <Link href="https://chat.whatsapp.com/HWLc2uRKPMiCxtMjZtIuiP">
             <Image 
               src="/assets/photos/wsapp.jpg"
