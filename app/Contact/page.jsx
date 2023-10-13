@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <div className='w-screen h-full bg-gray-200'>
       <div className='w-full h-full mx-0 bg-white'>
-        <div className= "flex flex-col items-center justify-center w-3/4 pt-16 mx-10 space-y-10 md:w-1/4 md:ml-20">
+        <div className= "flex flex-col items-center justify-center w-3/4 pt-14 mx-10 space-y-10 md:w-1/4 md:ml-20">
 {/* =================Loaction============================= */}
         <div className='w-full space-y-6 mb-14'>   
           <div 
@@ -31,7 +31,7 @@ const Contact = () => {
             <h1 className='mt-3 text-2xl font-bold text-slate-900'>Socials</h1>
             <div className='flex pb-2'>
             <div className='mt-2 mr-5'>
-            <h1 className='font-semibold'>Twitter</h1>
+            <h1 className='font-semibold'>Whatsapp</h1>
             <Link href="https://chat.whatsapp.com/HWLc2uRKPMiCxtMjZtIuiP">
             <Image 
               src="/assets/photos/wsapp.jpg"
@@ -62,7 +62,7 @@ const Contact = () => {
                   width={50}
                   height={50}
                   alt="Twitter"
-                  className='mt-2 rounded shadow-xl'
+                  className='mt-2 rounded-lg shadow-xl'
                 />
               </Link>
             </div>

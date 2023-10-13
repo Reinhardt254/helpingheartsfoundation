@@ -36,18 +36,18 @@ const Navbar = () => {
       <div className='flex justify-end px-3 py-1.5 max-sm:hidden max-md:hidden' > 
       <Link 
       href="/About"
-      className='flex items-center justify-center w-24 h-10 mx-8 border-2 border-slate-900 hover:bg-black hover:border-hidden'
+      className='flex items-center justify-center w-24 h-10 mx-8 border-2 border-slate-900 hover:bg-black hover:border-hidden rounded-sm'
       >
        <h1 className='justify-center font-bold text-center text-black flex hover:text-white items-center'>About Us</h1>
       </Link>
       <Link 
       href="/Contact"
-      className='flex items-center justify-center w-24 h-10 mx-8 border-2 border-slate-900 hover:bg-black hover:border-hidden '
+      className='flex items-center justify-center w-24 h-10 mx-8 border-2 border-slate-900 hover:bg-black hover:border-hidden rounded-sm'
       >
        <h1 className='font-bold text-center text-black justify-center flex-center hover:text-white'>Contact Us</h1>
       </Link>
       <Link href="/Donate"
-       className='flex items-center justify-center w-24 h-10 mx-8 border-2 border-slate-900 hover:bg-black hover:border-hidden '
+       className='flex items-center justify-center w-24 h-10 mx-8 border-2 border-slate-900 hover:bg-black hover:border-hidden rounded-sm'
        >
        <h1 className='font-bold text-center text-black justify-center flex-center hover:text-white'>Donate</h1>
       </Link>

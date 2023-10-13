@@ -29,7 +29,7 @@ export default function Home() {
        <Link href="/About"
         className="pt-5"
         >
-       <h1 className='p-2 font-bold text-center bg-white text-slate-900 flex-center w-28 hover:text-white hover:bg-gray-700 hover:border-hidden'>Learn More</h1>
+       <h1 className='p-2 font-bold text-center bg-white text-slate-900 flex-center w-28 hover:text-white hover:bg-gray-700 hover:border-hidden rounded'>Learn More</h1>
       </Link>
       </div>  
     </section>
@@ -48,7 +48,7 @@ export default function Home() {
         <Link href="/Donate"
         className="pt-5"
         >
-       <h1 className='p-2 ml-5 font-bold text-center text-white border-2 border-slate-900 w-28 flex-center hover:text-black hover:bg-white hover:border-black bg-slate-900'>Donate</h1>
+       <h1 className='p-2 ml-5 font-bold text-center text-white border-2 border-slate-900 w-28 flex-center hover:text-white hover:opacity-70  hover:border-black bg-red-600 rounded'>Donate</h1>
       </Link>
       </div>
     </div>
