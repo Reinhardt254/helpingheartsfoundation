@@ -33,23 +33,23 @@ const Navbar = () => {
       </div>
      
       {/* ================Large devices================ */}
-      <div className='flex justify-end px-3 py-1.5 max-sm:hidden max-md:hidden' > 
+      <div className='flex flex-row items-center justify-center px-3 max-sm:hidden max-md:hidden' > 
       <Link 
       href="/About"
-      className='flex items-center justify-center w-24 h-10 mx-8 border-2 border-slate-900 hover:bg-black hover:border-hidden rounded-sm'
+      className='flex items-center justify-center w-24 h-10 mx-8 border-2 rounded-sm border-slate-900 hover:bg-black hover:border-hidden'
       >
-       <h1 className='justify-center font-bold text-center text-black flex hover:text-white items-center'>About Us</h1>
+       <h1 className='flex items-center justify-center font-bold text-center text-black hover:text-white'>About Us</h1>
       </Link>
       <Link 
       href="/Contact"
-      className='flex items-center justify-center w-24 h-10 mx-8 border-2 border-slate-900 hover:bg-black hover:border-hidden rounded-sm'
+      className='flex items-center justify-center w-24 h-10 mx-8 border-2 rounded-sm border-slate-900 hover:bg-black hover:border-hidden'
       >
-       <h1 className='font-bold text-center text-black justify-center flex-center hover:text-white'>Contact Us</h1>
+       <h1 className='justify-center font-bold text-center text-black flex-center hover:text-white'>Contact Us</h1>
       </Link>
       <Link href="/Donate"
-       className='flex items-center justify-center w-24 h-10 mx-8 border-2 border-slate-900 hover:bg-black hover:border-hidden rounded-sm'
+       className='flex items-center justify-center w-24 h-10 mx-8 border-2 rounded-sm border-slate-900 hover:bg-black hover:border-hidden'
        >
-       <h1 className='font-bold text-center text-black justify-center flex-center hover:text-white'>Donate</h1>
+       <h1 className='justify-center font-bold text-center text-black flex-center hover:text-white'>Donate</h1>
       </Link>
       </div>
       {toggleDropDown && (

@@ -3,7 +3,7 @@ import React from 'react'
 
 const Testimonials = () => {
   return (
-    <div className='flex-col space-y-4 sm:flex-row md:flex'>
+    <div className='flex-col mb-5 space-y-4 sm:flex-row md:flex'>
         <div className='flex flex-col items-center justify-center p-4 mx-2 mt-3 bg-white rounded md:w-1/4 justify-items-center'>
             <div className='flex justify-center mb-3'> 
             <Image 
@@ -14,12 +14,12 @@ const Testimonials = () => {
              className='rounded-full'
             />
             </div>
-            <h1 className='mb-2 text-lg font-bold text-slate-900'>James Ndaraiya</h1>
+            <h1 className='mb-2 text-lg font-bold text-slate-900 '>James Ndaraiya</h1>
             <p className='mb-3 text-sm font-semibold text-slate-900'> I have been volunteering with Helping Hearts for years, and I have seen the positive impact they have on both local and global scales. Their transparency and commitment to making every dollar count in their charitable efforts have convinced me to become a regular donor. It is an organization I am proud to support</p>
             <h1></h1>
         </div>
 
-        <div className='flex flex-col items-center justify-center p-4 mx-2 mt-3 bg-white rounded md:w-1/4 justify-items-center'>
+        <div className='flex flex-col items-center justify-center p-4 mx-2 mt-3 bg-white rounded md:w-1/4 justify-items-center '>
         <div className='flex justify-center mb-3'> 
             <Image 
              src={"/assets/photos/profile.jpg"}
@@ -35,7 +35,7 @@ const Testimonials = () => {
             </p>
         </div>
 
-        <div className='flex flex-col items-center justify-center p-4 mx-2 mt-3 bg-white rounded md:w-1/4 justify-items-center'>
+        <div className='flex flex-col items-center justify-center p-4 mx-2 mt-3 bg-white rounded md:w-1/4 justify-items-center '>
         <div className='flex justify-center mb-3'> 
             <Image 
              src={"/assets/photos/mau.jpg"}
