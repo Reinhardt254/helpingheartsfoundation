@@ -75,7 +75,7 @@ export default function Home() {
     <div className='flex-col justify-center space-x-0 md:bg-white md:flex-row md:space-x-3 md:flex md:py-4 md:pb-14'>
      <div className="flex-col p-8 mb-2 bg-white md:w-1/5 md:p-2 sm:mb-0 "> 
       <div className="w-full ">
-        <h1 className="mx-3 mb-2 text-lg font-bold text-center ">Clothing Donations</h1>
+        <h1 className="mx-3 mb-2 text-2xl font-bold text-center ">Clothing Donations</h1>
       <Image
         src="/assets/photos/clothingm.jpg"
         width={3243}
@@ -92,7 +92,7 @@ export default function Home() {
      </div>
         <div className="flex-col p-8 mb-2 bg-white md:w-1/5 md:p-2 sm:mb-0">
           <div className="w-full"> 
-          <h1 className="mx-3 mb-2 text-lg font-bold text-center ">Food Donations</h1>
+          <h1 className="mx-3 mb-2 text-2xl font-bold text-center ">Food Donations</h1>
       <Image
         src="/assets/photos/foods.jpg"
         width={5675}
@@ -109,7 +109,7 @@ export default function Home() {
      </div>
      <div className="flex-col p-8 mb-2 bg-white md:w-1/5 md:p-2 sm:mb-0">
       <div className="w-full"> 
-      <h1 className="mx-3 mb-2 text-lg font-bold text-center ">Funds Donations</h1>
+      <h1 className="mx-3 mb-2 text-2xl font-bold text-center ">Funds Donations</h1>
       <Image
         src="/assets/photos/fundsm.jpg"
         width={3032}
@@ -142,7 +142,7 @@ export default function Home() {
         <Link href="/Donate"
         className="pt-5"
         >
-       <h1 className='p-2 mt-5 mb-5 ml-5 font-bold text-center text-white rounded bg-slate-900 hover:text-black w-28 flex-center hover:border-hidden hover:bg-gray-400'>Join us</h1>
+       <h1 className='flex items-center justify-center p-2 mt-5 mb-5 ml-5 font-bold text-center text-white rounded bg-slate-900 hover:text-black w-28 hover:border-hidden hover:bg-gray-400 md:w-32 md:h-12'>Join us</h1>
       </Link>
       </div>
       </div>
