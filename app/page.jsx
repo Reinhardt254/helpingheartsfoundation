@@ -73,7 +73,7 @@ export default function Home() {
     <div className="bg-gray-200">     
     {/* ===========What we do========== */}
     <div className='flex-col justify-center space-x-0 md:bg-white md:flex-row md:space-x-3 md:flex md:py-4 md:pb-14'>
-     <div className="flex-col p-8 mb-2 bg-white md:w-1/5 md:p-2 sm:mb-0 "> 
+     <div className="flex-col px-8 pt-4 pb-8 mb-2 bg-white md:w-1/5 md:p-2 sm:mb-0"> 
       <div className="w-full ">
         <h1 className="mx-3 mb-2 text-2xl font-bold text-center ">Clothing Donations</h1>
       <Image
