@@ -9,7 +9,7 @@ const Navbar = () => {
   const [toggleDropDown, setToggleDropDown] = useState(false)
   
   return (
-    <div className='flex justify-between pt-1 flex-center'>
+    <div className='flex justify-between flex-center'>
       <Link className="flex justify-center pl-5 text-lg font-bold text-gray-950"
       href="/"
       >
