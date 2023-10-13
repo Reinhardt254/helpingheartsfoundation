@@ -11,7 +11,7 @@ const About = () => {
           <div>
             <h1 className='pt-4 text-2xl font-bold text-slate-900'>Mission</h1>
             <p className='font-semibold text-slate-900'>
-            Compassion for All is dedicated to improving the lives of vulnerable individuals and communities worldwide. Our mission is to provide support, resources, and empowerment to those in need, fostering positive change and sustainable development.
+            Helping hearts foundation is dedicated to improving the lives of vulnerable individuals and communities worldwide. Our mission is to provide support, resources, and empowerment to those in need, fostering positive change and sustainable development.
             </p>
           </div>
 
