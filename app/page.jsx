@@ -55,7 +55,7 @@ export default function Home() {
         />
       </div>
       <div className="flex flex-col items-center justify-center px-2">
-        <p className="text-xl font-bold text-slate-900">Make someone smile today😊</p>
+        <p className="text-xl font-bold text-slate-900">Make someone smile today</p>
         <Link href="/Donate"
         className="pt-5"
         >
