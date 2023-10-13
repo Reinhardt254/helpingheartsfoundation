@@ -131,8 +131,8 @@ export default function Home() {
       {/* ============Join us card=============== */}  
         {/* <div className="m-3 border-b-2 border-slate-900">
         </div> */}
-      <div className="w-screen bg-white pt-7 pb-7 md:mt-3">      
-      <div className="flex flex-col justify-center p-8 mx-2 my-3 rounded items-left md:mx-20 md:p-14">
+      <div className="w-screen bg-white md:pt-4 md:pb-4 md:mt-3">      
+      <div className="flex flex-col justify-center px-5 pt-5 mx-2 my-3 rounded items-left md:mx-20 md:p-14">
         <h1 className="pb-2 text-3xl font-bold text-slate-900 ">Become one of  Us Today</h1>
         <p1 className="text-xl font-semibold text-slate-700">
         We are a passionate charitable foundation based in the heart of Kenya, dedicated to the well-being of our young, underprivileged children and families. Our mission is clear: to forge a path towards a brighter, more equitable society where every child has the opportunity to thrive. In a world where challenges persist, we stand as a beacon of hope, offering access to education, healthcare, and a supportive community. But we cannot do it alone. We need compassionate individuals like you to join us in our journey. Your involvement, whether through volunteering, donations, or advocacy, can be the catalyst for lasting change. Together, we can break down barriers, uplift spirits, and create a stronger, more inclusive society that truly leaves no one behind. Join us today, and let us make a profound impact on the lives of those who need it most.
