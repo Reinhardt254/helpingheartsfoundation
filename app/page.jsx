@@ -14,7 +14,7 @@ export default function Home() {
         {/* ============card on home============ */}
       <div className="">    
       <div className="flex flex-col w-full md:flex-row">    
-      <section className="flex flex-col py-14 bg-white  md:w-1/2 md:h-[600px]  md:py-10 md:items-center md:justify-center pl-7 md:pl-0 ">
+      <section className="flex flex-col py-14 bg-white  md:w-1/2 md:h-[600px]  md:py-10 md:items-center md:justify-center  md:pl-0 h-[500px] items-center justify-center px-2">
         <div className="">         
         <div className="flex flex-row">        
         <h1 className="mb-3 text-3xl font-bold text-slate-900 text-start md:mb-5 md:text-6xl">
@@ -23,8 +23,8 @@ export default function Home() {
             <h1 className="pl-2 mb-3 text-3xl font-bold text-red-600 text-start md:mb-5 md:text-6xl">PEOPLE?</h1>
         </div>
         <div className="flex">   
-         <h1 className="mb-3 text-2xl font-bold text-black text-start md:mb-5 md:text-4xl">BECOME A </h1>
-         <h1 className="mb-3 ml-2 text-2xl font-bold text-red-600 text-start md:mb-5 md:text-4xl">VOLUNTEER TODAY</h1>
+         <p className="mb-3 text-2xl font-bold text-black text-start md:mb-5 md:text-4xl">BECOME A </p>
+         <p className="mb-3 ml-2 text-2xl font-bold text-red-600 text-start md:mb-5 md:text-4xl">VOLUNTEER TODAY</p>
         </div>
             <div className="flex flex-col">
             <span className="text-xl font-bold text-gray-700 md:mb-2 text-start md:text-3xl">We are a charity foundation in Kenya</span>
@@ -44,17 +44,17 @@ export default function Home() {
       </div>       
         </div>
     </section>
-    <div className="flex items-center justify-center mt-1 bg-white md:w-1/2 md:h-[600px]  md:py-10 md:mt-0">
+    <div className="flex items-center justify-center  md:w-1/2 md:h-[600px]  md:py-10 md:mt-0 bg-white mt-1">
       <div>
         <Image 
           src="/assets/photos/Donate.jpg"
           alt="donate"
           width={300}
           height={300}
-          className="rounded"
+          className="md:rounded p-0"
         />
       </div>
-      <div className="flex flex-col items-center justify-center px-2">
+      <div className="flex flex-col items-center justify-center px-2 ">
         <p className="text-xl font-bold text-slate-900">Make someone smile today</p>
         <Link href="/Donate"
         className="pt-5"
@@ -67,7 +67,7 @@ export default function Home() {
     </div>
     </div>
     
-    <div className="flex justify-center pt-5 mt-2 bg-white"> 
+    <div className="flex justify-center pt-5 mt-1 bg-white md:mt-1"> 
     <p className="text-3xl font-bold pt-7 text-slate-900">WHAT DO WE DO?</p>
     </div>
     <div className="bg-gray-200">     
