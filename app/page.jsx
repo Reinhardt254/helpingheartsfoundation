@@ -14,7 +14,7 @@ export default function Home() {
         {/* ============card on home============ */}
       <div className="">    
       <div className="flex flex-col w-full md:flex-row">    
-      <section className="flex flex-col py-14 bg-white  md:w-1/2 md:h-[600px]  md:py-10 md:items-center md:justify-center  md:pl-0 h-[500px] items-center justify-center px-2">
+      <section className="flex flex-col py-14 bg-white  md:w-1/2 md:h-[600px]  md:py-10 md:items-center md:justify-center  md:pl-0 h-[450px] items-center justify-center px-2">
         <div className="">         
         <div className="flex flex-row">        
         <h1 className="mb-3 text-3xl font-bold text-slate-900 text-start md:mb-5 md:text-6xl">
@@ -54,12 +54,12 @@ export default function Home() {
           className="md:rounded p-0"
         />
       </div>
-      <div className="flex flex-col items-center justify-center px-2 ">
+      <div className="flex flex-col items-start justify-center px-2 md:items-center pl-3">
         <p className="text-xl font-bold text-slate-900">Make someone smile today</p>
         <Link href="/Donate"
         className="pt-5"
         >
-       <h1 className='p-2 ml-5 font-bold text-center text-white bg-red-600 border-2 rounded border-slate-900 w-28 flex-center hover:text-white hover:opacity-70 hover:border-black'>Donate</h1>
+       <h1 className='p-2 md:ml-5 font-bold text-center text-white bg-red-600 border-2 rounded border-slate-900 w-28  hover:text-white hover:opacity-70 hover:border-black'>Donate</h1>
       </Link>
       </div>
     </div>
