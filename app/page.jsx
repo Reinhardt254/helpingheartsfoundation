@@ -44,14 +44,14 @@ export default function Home() {
       </div>       
         </div>
     </section>
-    <div className="flex items-center justify-center  md:w-1/2 md:h-[600px]  md:py-10 md:mt-0 bg-white mt-1">
+    <div className="flex items-center justify-center  md:w-1/2 md:h-[600px]  md:py-10 md:mt-0 bg-white mt-1 p-1">
       <div>
         <Image 
           src="/assets/photos/Donate.jpg"
           alt="donate"
           width={300}
           height={300}
-          className="md:rounded p-0"
+          className="rounded p-0"
         />
       </div>
       <div className="flex flex-col items-start justify-center px-2 md:items-center pl-3">
