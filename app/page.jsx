@@ -4,6 +4,8 @@ import Navbar from "@/components/Navbar"
 import Testimonials from "@/components/Testimonials"
 import Image from "next/image"
 import Link from "next/link"
+import Donate from "./Donate/page"
+import HelpDonate from "@/components/donate"
 
 export default function Home() {
   return (
@@ -13,16 +15,17 @@ export default function Home() {
       >
         {/* ============card on home============ */}
       <div className="">    
-      <div className="flex flex-col w-full md:flex-row">    
-      <section className="flex flex-col py-14 bg-white  md:w-1/2 md:h-[600px]  md:py-10 md:items-center md:justify-center  md:pl-0 h-[450px] items-center justify-center px-2">
+      <div className="w-screen md:flex-row">
+      <div className="bg-[url('/assets/photos/homee.jpg')] bg-n-repeat  h-[570px] flex justify-center items-center object-cover w-screen">
+      <section className="flex flex-col items-center justify-center px-8 py-8 bg-white rounded bg-blend-darken md:items-center md:justify-center max-sm:mx-1">
         <div className="">         
-        <div className="flex flex-row">        
+        <div className="flex flex-row flex-wrap">        
         <h1 className="mb-3 text-3xl font-bold text-slate-900 text-start md:mb-5 md:text-6xl">
              YOU HELP 
             </h1>
             <h1 className="pl-2 mb-3 text-3xl font-bold text-red-600 text-start md:mb-5 md:text-6xl">PEOPLE?</h1>
         </div>
-        <div className="flex">   
+        <div className="flex flex-wrap">   
          <p className="mb-3 text-2xl font-bold text-black text-start md:mb-5 md:text-4xl">BECOME A </p>
          <p className="mb-3 ml-2 text-2xl font-bold text-red-600 text-start md:mb-5 md:text-4xl">VOLUNTEER TODAY</p>
         </div>
@@ -44,25 +47,12 @@ export default function Home() {
       </div>       
         </div>
     </section>
-    <div className="flex items-center justify-center  md:w-1/2 md:h-[600px]  md:py-10 md:mt-0 bg-white mt-1 p-1">
-      <div>
-        <Image 
-          src="/assets/photos/Donate.jpg"
-          alt="donate"
-          width={300}
-          height={300}
-          className="rounded p-0"
-        />
+    
+      <div className="absolute">    
+        <HelpDonate />
       </div>
-      <div className="flex flex-col items-start justify-center px-2 md:items-center pl-3">
-        <p className="text-xl font-bold text-slate-900">Make someone smile today</p>
-        <Link href="/Donate"
-        className="pt-5"
-        >
-       <h1 className='p-2 md:ml-5 font-bold text-center text-white bg-red-600 border-2 rounded border-slate-900 w-28  hover:text-white hover:opacity-70 hover:border-black'>Donate</h1>
-      </Link>
-      </div>
-    </div>
+      </div>    
+    
     </div>
     </div>
     </div>
