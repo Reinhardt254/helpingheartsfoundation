@@ -27,7 +27,7 @@ export default function RootLayout({ children }) {
       <body className={font.className}>
       <div className='sticky top-0 bg-white shadow h-14'> 
         <Navbar />
-      </div>
+       </div>
         {children}
         <div>
           <Footer />

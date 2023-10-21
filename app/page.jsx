@@ -48,7 +48,7 @@ export default function Home() {
         </div>
     </section>
     
-      <div className="absolute">    
+      <div className="absolute h-screen">    
         <HelpDonate />
       </div>
       </div>    
