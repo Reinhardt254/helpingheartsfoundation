@@ -17,7 +17,7 @@ export default function Home() {
       <div className="">    
       <div className="w-screen md:flex-row">
       <div className="bg-[url('/assets/photos/homee.jpg')] bg-n-repeat  h-[570px] flex justify-center items-center object-cover w-screen">
-      <section className="flex flex-col items-center justify-center px-8 py-8 bg-white rounded bg-blend-darken md:items-center md:justify-center mr-2 ml-2">
+      <section className="flex flex-col items-center justify-center px-8 py-8 bg-white rounded bg-blend-darken md:items-center md:justify-center mr-2 ml-3">
         <div className="">         
         <div className="flex flex-row flex-wrap">        
         <h1 className="mb-3 text-3xl font-bold text-slate-900 text-start md:mb-5 md:text-6xl">
