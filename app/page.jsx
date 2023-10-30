@@ -15,9 +15,8 @@ export default function Home() {
       >
         {/* ============card on home============ */}
       <div className="">    
-      <div className="object-fill w-screen h-screen">
-      <div className="bg-[url('/assets/photos/homee.jpg')] bg-n-repeat  flex justify-center items-center h-screen w-screen object-fill">
-       <div className="">     
+      <div className="w-screen md:flex-row">
+      <div className="bg-[url('/assets/photos/homee.jpg')] bg-n-repeat  h-[570px] flex justify-center items-center object-cover w-screen">
       <section className="flex flex-col items-center justify-center px-8 py-8 bg-white rounded bg-blend-darken md:items-center md:justify-center max-sm:mx-1">
         <div className="">         
         <div className="flex flex-row flex-wrap">        
