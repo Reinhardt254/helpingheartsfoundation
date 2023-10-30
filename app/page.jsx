@@ -16,9 +16,9 @@ export default function Home() {
         {/* ============card on home============ */}
       <div className="">    
       <div className="w-screen md:flex-row">
-      <div className="bg-[url('/assets/photos/homee.jpg')] bg-n-repeat  h-[570px] flex justify-center items-center object-cover w-screen">
-      <section className="flex flex-col items-center justify-center px-8 py-8 bg-white rounded bg-blend-darken md:items-center md:justify-center max-sm:mx-1">
-        <div className="">         
+      <div className="bg-[url('/assets/photos/homee.jpg')] bg-n-repeat  h-screen flex justify-center items-center object-cover w-screen">
+      <section className="flex flex-col items-center justify-center px-8 py-8 ml-2 mr-3 bg-white rounded bg-blend-darken md:items-center md:justify-center">
+        <div className="">        
         <div className="flex flex-row flex-wrap">        
         <h1 className="mb-3 text-3xl font-bold text-slate-900 text-start md:mb-5 md:text-6xl">
              YOU HELP 
@@ -47,7 +47,6 @@ export default function Home() {
       </div>       
         </div>
     </section>
-       </div>
     
       <div className="absolute z-50 h-screen">    
         <HelpDonate />
