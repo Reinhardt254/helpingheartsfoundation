@@ -56,19 +56,20 @@ const Navbar = () => {
        <div className='absolute flex w-screen'>
         <div>
         <div className='z-10 flex flex-row w-screen h-screen'>
-          <div className='w-1/2 h-screen bg-black opacity-50' />          
+          <div className='w-1/2 h-screen bg-black opacity-50' onClick={()=> setToggleDropDown((prev)=>!prev)}/>          
           <div className='flex-col w-2/3 h-full mt-2 bg-white bg-opacity-100'>
           <div className='absolute top-0 right-0 pt-1 pr-6'> 
            <div
             onClick={()=> setToggleDropDown((prev)=>!prev)}
            > 
       
-           <XMarkIcon className="w-8 h-8 text-bLack" />
+           <XMarkIcon className="w-8 h-8 text-bLack hover:text-red-600" />
            </div>
            </div> 
-            <div className='p-3 font-bold text-start mt-7'> 
+           <div className='flex flex-col items-center w-full h-full justify-'>     
+          <div className='p-3 mt-20 font-bold text-start'> 
            <Link href="/About"
-           className=''
+           className='text-lg text-slate-900 hover:text-red-600'
            onClick={() => setToggleDropDown(false)}
            >
             About Us
@@ -76,7 +77,7 @@ const Navbar = () => {
           </div>
           <div className='p-3 font-bold text-start'> 
           <Link href="/Contact"
-          className=''
+          className='text-lg text-slate-900 hover:text-red-600'
           onClick={() => setToggleDropDown(false)}
           >
             Contact Us
@@ -84,12 +85,13 @@ const Navbar = () => {
           </div>
           <div className='p-3 font-bold text-start'> 
           <Link href="/Donate"
-          className=''
+          className='text-lg text-slate-900 hover:text-red-600'
           onClick={() => setToggleDropDown(false)}
           >
             Donate
           </Link>
           </div>
+           </div>
           </div>
         </div>
         </div>
