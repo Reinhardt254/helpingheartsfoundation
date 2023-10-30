@@ -15,8 +15,9 @@ export default function Home() {
       >
         {/* ============card on home============ */}
       <div className="">    
-      <div className="w-screen md:flex-row">
-      <div className="bg-[url('/assets/photos/homee.jpg')] bg-n-repeat  h-[570px] flex justify-center items-center object-cover w-screen">
+      <div className="object-fill w-screen h-screen">
+      <div className="bg-[url('/assets/photos/homee.jpg')] bg-n-repeat  flex justify-center items-center h-screen w-screen object-fill">
+       <div className="">     
       <section className="flex flex-col items-center justify-center px-8 py-8 bg-white rounded bg-blend-darken md:items-center md:justify-center max-sm:mx-1">
         <div className="">         
         <div className="flex flex-row flex-wrap">        
@@ -26,8 +27,8 @@ export default function Home() {
             <h1 className="pl-2 mb-3 text-3xl font-bold text-red-600 text-start md:mb-5 md:text-6xl">PEOPLE?</h1>
         </div>
         <div className="flex flex-wrap">   
-         <p className="mb-3 text-2xl font-bold text-black text-start md:mb-5 md:text-4xl">BECOME A </p>
-         <p className="mb-3 ml-2 text-2xl font-bold text-red-600 text-start md:mb-5 md:text-4xl">VOLUNTEER TODAY</p>
+         <p className="pr-2 mb-3 text-2xl font-bold text-black text-start md:mb-5 md:text-4xl">BECOME A </p>
+         <p className="mb-3 text-2xl font-bold text-red-600 text-start md:mb-5 md:text-4xl">VOLUNTEER TODAY</p>
         </div>
             <div className="flex flex-col">
             <span className="text-xl font-bold text-gray-700 md:mb-2 text-start md:text-3xl">We are a charity foundation in Kenya</span>
@@ -47,8 +48,9 @@ export default function Home() {
       </div>       
         </div>
     </section>
+       </div>
     
-      <div className="absolute h-screen">    
+      <div className="absolute z-50 h-screen">    
         <HelpDonate />
       </div>
       </div>    
@@ -58,7 +60,7 @@ export default function Home() {
     </div>
     
     <div className="flex justify-center pt-5 mt-1 bg-white md:mt-1"> 
-    <p className="text-3xl font-bold pt-7 text-slate-900">WHAT DO WE DO?</p>
+    <p className="text-3xl font-bold text-red-600 pt-7">WHAT DO WE DO?</p>
     </div>
     <div className="bg-gray-200">     
     {/* ===========What we do========== */}
@@ -123,7 +125,7 @@ export default function Home() {
         </div> */}
       <div className="w-screen bg-white md:pt-4 md:pb-4 md:mt-3">      
       <div className="flex flex-col justify-center px-5 pt-5 mx-2 my-3 rounded items-left md:mx-20 md:p-14">
-        <h1 className="pb-2 text-3xl font-bold text-slate-900 ">Become one of  Us Today</h1>
+        <h1 className="pb-2 text-3xl font-bold text-red-600 ">Become one of  Us Today</h1>
         <p1 className="text-xl font-semibold text-slate-700">
         We are a passionate charitable foundation based in the heart of Kenya, dedicated to the well-being of our young, underprivileged children and families. Our mission is clear: to forge a path towards a brighter, more equitable society where every child has the opportunity to thrive. In a world where challenges persist, we stand as a beacon of hope, offering access to education, healthcare, and a supportive community. But we cannot do it alone. We need compassionate individuals like you to join us in our journey. Your involvement, whether through volunteering, donations, or advocacy, can be the catalyst for lasting change. Together, we can break down barriers, uplift spirits, and create a stronger, more inclusive society that truly leaves no one behind. Join us today, and let us make a profound impact on the lives of those who need it most.
         </p1>
@@ -132,7 +134,7 @@ export default function Home() {
         <Link href="/Donate"
         className="pt-5"
         >
-       <h1 className='flex items-center justify-center p-2 mt-5 mb-5 ml-5 font-bold text-center text-white rounded bg-slate-900 hover:text-black w-28 hover:border-hidden hover:bg-gray-400 md:w-32 md:h-12'>Join us</h1>
+       <h1 className='flex items-center justify-center p-2 mt-5 mb-5 ml-5 font-bold text-center text-white bg-red-600 rounded hover:text-black w-28 hover:border-hidden hover:bg-gray-400 md:w-32 md:h-12'>Join us</h1>
       </Link>
       </div>
       </div>
