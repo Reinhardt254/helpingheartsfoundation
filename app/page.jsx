@@ -18,7 +18,7 @@ export default function Home() {
       <div className="">    
       <div className="w-screen md:flex-row">
       <div 
-        className="flex items-center justify-center w-screen h-screen" 
+        className="flex items-center justify-center w-screen h-[570px]" 
       style={{
         backgroundImage: `url(/assets/photos/homee.jpg)`,
         backgroundSize: 'cover',
@@ -118,7 +118,7 @@ export default function Home() {
         <Link href="/Donate"
         className="pt-5"
         >
-       <h1 className='flex items-center justify-center p-2 mt-5 mb-5 ml-5 font-bold text-center text-white bg-red-600 rounded hover:text-black w-28 hover:border-hidden hover:bg-gray-400 md:w-32 md:h-12'>Join us</h1>
+       <h1 className='flex items-center justify-center p-2 mt-5 mb-5 ml-5 text-xl font-bold text-center text-white bg-red-600 rounded hover:text-black w-28 hover:border-hidden hover:bg-gray-400 md:w-32 md:h-12'>Join us</h1>
       </Link>
       </div>
       </div>

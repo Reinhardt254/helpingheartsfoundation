@@ -63,11 +63,19 @@ const Navbar = () => {
             onClick={()=> setToggleDropDown((prev)=>!prev)}
            > 
       
-           <XMarkIcon className="w-8 h-8 text-bLack hover:text-red-600" />
+           <XMarkIcon className="w-8 h-8 text-red-600 hover:text-slate-900" />
            </div>
            </div> 
-           <div className='flex flex-col items-center w-full h-full justify-'>     
-          <div className='p-3 mt-20 font-bold text-start'> 
+           <div className='flex flex-col items-center w-full h-full justify-'>
+           <div className='p-3 mt-20 font-bold text-start'> 
+           <Link href="/"
+           className='text-lg text-slate-900 hover:text-red-600'
+           onClick={() => setToggleDropDown(false)}
+           >
+            Home
+          </Link>
+          </div>     
+          <div className='p-3 mt-0 font-bold text-start'> 
            <Link href="/About"
            className='text-lg text-slate-900 hover:text-red-600'
            onClick={() => setToggleDropDown(false)}

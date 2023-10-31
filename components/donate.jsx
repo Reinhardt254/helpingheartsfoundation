@@ -26,7 +26,7 @@ const HelpDonate = () => {
     <div className='mx-2 w-96 md:w-[400px] px-1 mr-2'>
       <div className='relative'>
            <XMarkIcon 
-             className="absolute top-0 right-0 w-8 h-8 text-bLack hover:text-red-600" 
+             className="absolute top-0 right-0 w-8 h-8 text-red-600 hover:text-slate-900" 
              onClick={()=>setSwitchedOn(false)}
             />
          </div>
